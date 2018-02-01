@@ -7,7 +7,7 @@ require 'cairo'
 Plugin.create :sub_parts_client do
   # ツイートが投稿されるのに使われたクライアントアプリケーションの名前をTL上に表示する
   class Gdk::SubPartsClient < Gdk::SubParts
-    regist
+    register
 
     def initialize(*args)
       super
